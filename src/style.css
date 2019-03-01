@@ -1,4 +1,109 @@
-h1 {
-    font-size: 2em;
-    color: red; 
+*{
+    margin: 0; 
 }
+
+body {
+    background-color: black;
+    font-family: "Myriad Pro";
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#container {
+    position: relative;
+    top: 20%; 
+}
+
+#separador {
+    height: 50px;
+    width: 100%;
+}
+
+#search {
+    width: 40%; 
+    float: right;
+    margin-top: 18px; 
+    margin-right: 10px;
+    border-radius: 50px;
+    text-align: center; 
+    font-size: 0.7em; 
+    background-image: url(./images/buscador.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#logo2 {
+    width: 40%; 
+    margin-top: 7px; 
+    margin-left: 10px;
+    float: left;
+}
+
+#card-movie {
+    width: 85%;
+    margin: 0 auto;
+<<<<<<< HEAD
+    background-color: black;
+=======
+>>>>>>> upstream/master
+}
+
+.movie-container{
+    width: 31%;
+    display: inline-block;
+    margin: 0 1% 2%;
+    /* background-color: red; */
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.background-poster{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#posters {
+    width: 100%;
+    
+}
+
+#title {
+    font-size: 0.7em;
+    color: white;
+    height: 35px; 
+    text-align: center;
+}
+
+#menu {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    padding: 0px; 
+    padding-left: 2%;
+}
+
+.buttons-menu{
+    width: 21%;
+    display: inline-block;
+    margin: 0px 1% 1%;
+}
+
+.first-button{
+    width: 21%;
+    margin: 0px 1% 1%;
+}
+
+.img-button {
+    width: 100%;
+}
+
